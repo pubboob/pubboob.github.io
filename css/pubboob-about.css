@@ -1,0 +1,182 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	margin-top:0;
+	margin-bottom:0;
+	width: 980px;
+	background-color:lightpink;
+	margin: 0 auto;
+
+}
+
+
+audio {display: none;}
+
+
+
+.content {
+	width: 100%;
+	max-width: 600px;
+	padding: 20px 40px;
+	text-align: center;
+}
+
+.header {
+    height: 85px;
+    width: 360px;
+	padding-left: 35px;
+	padding-top:20px;
+	padding-bottom: 20px;
+    background-color:pink;
+	float:left;
+}
+
+.nav {
+    height: 85px;
+    width: 540px;
+	padding:20px;
+    background-color:pink;
+	float:right;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding-top:30px ;}
+
+li {
+	display: inline;}
+
+li a {
+    padding: 10px;}
+
+li a:hover 
+     {
+    -webkit-filter: invert(100%) !important;}
+
+.forcolor {height: 1500px;
+    width: 980px;
+    background-color:pink;
+}
+
+.about-gif {
+	background-color:pink;
+}
+
+
+.bitcoin  {
+	transform: translatex(5px);
+	animation: float 3s infinite;
+	position: absolute;
+	bottom: 8%;
+	left: 18%;
+}
+
+
+
+.trojan  {
+	transform: translatex(5px);
+	animation: float 6s infinite;
+	position: absolute;
+	top: 12%;
+	left: 64%;
+}
+
+.doubled  {
+	transform: translatex(5px);
+	position: absolute;
+	top: 16%;
+	left: 54%;
+}
+
+.bolt  {
+	transform: translatex(5px);
+	position: absolute;
+	top: 16%;
+	left: 19%;
+}
+
+.barley {
+	transform: translatex(5px);
+	position: absolute;
+	bottom: 15%;
+	left: 65%;
+}
+
+
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+
+		transform: translatey(-15px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+
+.ball {background-image: url(" ../images/competition.png");
+       }
+
+.footer {
+    height: 200px;
+    width: 960px;
+    background-color:pink;
+	padding-top: 40px;
+	padding-left: 20px;
+}
+
+ul2 {
+    list-style-type: none;
+    margin: 0px;
+    padding-top:100px;
+	padding-left:250px;
+}
+
+li2 {
+	display: inline;
+}
+
+li2 a {
+    padding: 30px;}
+
+li2 a:hover 
+     { -webkit-filter: invert(100%) !important; }
+
+
+.end {
+    height: 100px;
+    width: 580px;
+    background-color:pink;
+	padding-left: 400px;
+}
+
+.magicpill  {
+	transform: translatex(5px);
+	animation: float 6s infinite;
+	position: absolute;
+	bottom: -150%;
+	left: 64%;
+}
+
+.pooltricks  {
+	transform: translatex(5px);
+	animation: float 6s infinite;
+	position: absolute;
+	bottom: -20%;
+	left: 59%;
+}
+
+.imgboob  {
+	transform: translatex(5px);
+	position: absolute;
+	bottom: -160%;
+	left: 10%;
+}
+
+

@@ -1,0 +1,214 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	margin-top:0;
+	margin-bottom:0;
+	width: 980px;
+	background-color:lightpink;
+	margin: 0 auto; 
+}
+
+
+
+
+.content {
+	width: 100%;
+	max-width: 600px;
+	padding: 20px 40px;
+	text-align: center;
+}
+
+.header {
+    height: 85px;
+    width: 360px;
+	padding-left: 35px;
+	padding-top:20px;
+	padding-bottom: 20px;
+    background-color:pink;
+	float:left;
+		
+}
+
+.nav {
+    height: 85px;
+    width: 540px;
+	padding:20px;
+    background-color:pink;
+	float:right;
+	
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding-top:30px ;}
+
+li {
+	display: inline;}
+
+li a {
+    padding: 10px;}
+
+li a:hover 
+     {
+    -webkit-filter: invert(100%) !important;}
+
+.home-gif {
+	background-color:pink;
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+
+		transform: translatey(-15px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+.virus-ad {
+	transform: translatey(0px);
+	animation: float 3.5s ease-in-out infinite;
+	position: absolute;
+	top: 20%;
+	left: 65%;
+}
+
+.sexy-single-ad  {
+	transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+	position: absolute;
+	top: 40%;
+	left: 14%;
+}
+
+.livechat
+{
+	position: absolute;
+	top: 50%;
+	left: 70%;
+}
+
+
+.bigdick
+{
+	position: absolute;
+	top: 25%;
+	left: 20%;
+}
+
+
+.freeiphone
+{   transform: translatey(0px);
+	animation: float 6s ease-out infinite;
+	position: absolute;
+	bottom: 20%;
+	left: 60%;
+}
+
+.bitcoin  {
+	transform: translatex(5px);
+	animation: float 3s infinite;
+	position: absolute;
+	bottom: 20%;
+	left: 34%;
+}
+
+
+.beer-menu {
+    height: 900px;
+    width: 980px;
+    background-color:pink;
+}
+
+.mainarray {overflow: hidden;
+    white-space: nowrap;}
+
+.array1{
+  display: inline-block;
+  animation: marquee 10s linear infinite;
+}
+
+.array2{
+  display: inline-block;
+  animation: marquee2 10s linear infinite;
+	animation-delay: 5s;}
+
+@keyframes marquee {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes marquee2 {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-200%);
+  }
+}
+
+.food-menu {
+    height: 700px;
+    width: 980px;
+    background-color:pink;
+}
+
+.footer {
+    height: 200px;
+    width: 960px;
+    background-color:pink;
+	padding-top: 40px;
+	padding-left: 20px;
+}
+
+ul2 {
+    list-style-type: none;
+    margin: 0px;
+    padding-top:100px;
+	padding-left:250px;
+}
+
+li2 {
+	display: inline;
+}
+
+li2 a {
+    padding: 30px;}
+
+li2 a:hover 
+     { -webkit-filter: invert(100%) !important; }
+
+
+.end {
+    height: 100px;
+    width: 580px;
+    background-color:pink;
+	padding-left: 400px;
+}
+
+.money
+{   transform: translatex(5px);
+	animation: float 3s ease-in-out infinite;
+	position: absolute;
+	bottom: -175%;
+	left: 65%;
+}
+.dildo
+{   transform: translatex(5px);
+	animation: float 6s ease-in-out infinite;
+	position: absolute;
+	bottom: -185%;
+	left: 15%;
+}
+
+audio {display: none;}
